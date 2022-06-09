@@ -30,10 +30,22 @@ body {
     width: 100%;
 }
 
+/* resenje u tutorijalu za postavljanje div-a i nav-a u istu liniju uz pomoc inline-block-a */
+.main-header > div {
+    display: inline-block;
+}
+
+.main-nav {
+    display: inline-block;
+}
+
+/* kraj resenja */
+
 .main-nav__item {
     display: inline-block;
 }
 
+/* moje resenje za postavljanje div-a i nav-a u istu liniju uz pomoc inline-block-a:
 .host, .main-nav {
     display: inline-block;
-}
+} */
