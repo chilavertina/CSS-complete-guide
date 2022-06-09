@@ -37,6 +37,16 @@ body {
 
 .main-nav {
     display: inline-block;
+    text-align: right;
+    width: calc(100% - 49px); /* calc funkcija koja nam omogucava da od 100% definisane sirine nav elementa oduzmemo sirinu div elementa
+                                u pikselima */
+}
+
+.main-nav__items {   /* ovde sam margin i padding dao vrednost nule kako bi nav elementi (li elementi) mogli da se pomere u desnu stranu 
+                        text-align: right; */
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 /* kraj resenja */
