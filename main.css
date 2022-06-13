@@ -33,13 +33,23 @@ body {
 /* resenje u tutorijalu za postavljanje div-a i nav-a u istu liniju uz pomoc inline-block-a */
 .main-header > div {
     display: inline-block;
+    vertical-align: middle;
 }
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
 
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 60px); /* calc funkcija koja nam omogucava da od 100% definisane sirine nav elementa oduzmemo sirinu div elementa
+    width: calc(100% - 75px); /* calc funkcija koja nam omogucava da od 100% definisane sirine nav elementa oduzmemo sirinu div elementa
                                 u pikselima */
+    vertical-align: middle;
 }
 
 .main-nav__items {   /* ovde sam margin i padding dao vrednost nule kako bi nav elementi (li elementi) mogli da se pomere u desnu stranu 
