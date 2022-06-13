@@ -38,7 +38,7 @@ body {
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 49px); /* calc funkcija koja nam omogucava da od 100% definisane sirine nav elementa oduzmemo sirinu div elementa
+    width: calc(100% - 60px); /* calc funkcija koja nam omogucava da od 100% definisane sirine nav elementa oduzmemo sirinu div elementa
                                 u pikselima */
 }
 
