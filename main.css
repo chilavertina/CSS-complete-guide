@@ -63,6 +63,9 @@ body {
 
 .main-nav__item {
     display: inline-block;
+    margin: 0 16px;
+    color: green;
+    text-decoration: none;
 }
 
 /* moje resenje za postavljanje div-a i nav-a u istu liniju uz pomoc inline-block-a:
