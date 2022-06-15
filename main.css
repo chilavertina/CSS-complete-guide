@@ -55,6 +55,10 @@ body {
     padding: 0;
 }
 
+.plan__features li {
+    margin: 8px 0;
+}
+
 .main-header {
     background-color: #2ddf5c;
     padding: 8px 16px;
