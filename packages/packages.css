@@ -40,6 +40,7 @@ main {
 
 #free {
     background: rgba(234, 252, 237, 0.95);
+    float: right;
 }
 
 #premium {
