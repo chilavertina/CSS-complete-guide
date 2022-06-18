@@ -14,6 +14,11 @@ body {
     padding: 10px;
 }
 
+.plan__list {
+    width: 80%;
+    margin: auto;
+}
+
 .section-title {
     color: #2ddf5c;
     font-family: inherit;
