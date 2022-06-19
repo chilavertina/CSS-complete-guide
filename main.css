@@ -9,9 +9,17 @@ body {
 
 #product-overview {
     background: url("freedom.jpg");
+    margin-top: 43px;
     width: 100%;
     height: 528px;
     padding: 10px;
+    position: relative;
+}
+
+.slogan {
+    position: absolute;
+    bottom: 1%;
+    left: 2%;
 }
 
 .plan__list {
