@@ -127,6 +127,7 @@ body {
     border-radius: 50%;
     height: 128px;
     margin: auto;
+    padding: 20px;
 }
 
 .key-feature__description {
