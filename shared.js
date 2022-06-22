@@ -1,7 +1,7 @@
 var backdrop = document.querySelector('.backdrop'); /*ime var-a (backdrop) ne mora biti ime elementa ili selektora kojeg zelimo da pozovemo*/
 var modal = document.querySelector('.modal');
+var modalNoButton = document.querySelector('.modal__action--negative');
 var selectPlanButtons = document.querySelectorAll('.plan button');
-var noDugme = document.querySelector('.modal button');
 
 for (var i = 0; i < selectPlanButtons.length; i++) {
     selectPlanButtons[i].addEventListener('click', function() {
@@ -15,7 +15,7 @@ backdrop.addEventListener('click', function() {   /*ovo omogucava da se klikne b
         backdrop.style.display = 'none';
     });
 
-noDugme.addEventListener('click', function() {  /*ovo omogucava da se prozor 'yes no' ukloni kada se klikne na 'no'*/
+modalNoButton.addEventListener('click', function() {  /*ovo omogucava da se prozor 'yes no' ukloni kada se klikne na 'no'*/
         modal.style.display = 'none';
         backdrop.style.display = 'none';
     });
