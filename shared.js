@@ -10,17 +10,14 @@ for (var i = 0; i < selectPlanButtons.length; i++) {
     });
 }
 
-backdrop.addEventListener('click', function() {   /*ovo omogucava da se klikne bilo gde na stranici da bi se prozor 'yes no' uklonio'*/
-        modal.style.display = 'none';
-        backdrop.style.display = 'none';
-    });
+backdrop.addEventListener('click', closeModal);
 
-modalNoButton.addEventListener('click', function() {  /*ovo omogucava da se prozor 'yes no' ukloni kada se klikne na 'no'*/
-        modal.style.display = 'none';
-        backdrop.style.display = 'none';
-    });
+modalNoButton.addEventListener('click', closeModal);
 
-
+function closeModal() {
+    modal.style.display = 'none';
+    backdrop.style.display = 'none';
+};
 
 
 
