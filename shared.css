@@ -121,7 +121,12 @@ body {
 .main-footer {
     background: black;
     padding: 2rem;
-    margin-top: 3rem;
+}
+
+@media (min-width: 40rem) {
+    .main-footer {
+        margin-top: 3rem;
+    }
 }
 
 .main-footer__links {
