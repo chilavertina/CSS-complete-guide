@@ -45,6 +45,13 @@ main {
     border-color: #2ddf5c;
 }
 
+.signup-form input[type="checkbox"] {
+    border: 1px solid #ccc;
+    background: white;
+    width: 1rem;
+    height: 1rem;
+}
+
 .signup-form button[type="submit"] {
     display: block;
     margin-top: 1rem;
