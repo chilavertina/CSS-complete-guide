@@ -36,6 +36,7 @@ main {
     padding: 0.5rem 1rem;
     width: 100%;
     z-index: 1;
+    display: flex;
 }
 
 .main-header > div {
