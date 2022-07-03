@@ -71,6 +71,7 @@ main {
 
 .main-header__brand img {
     height: 2.5rem;
+    vertical-align: middle;
     /*width: 100%;*/
 }
 
