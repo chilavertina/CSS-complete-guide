@@ -230,6 +230,7 @@ main {
         display: inline-block;
         margin: 0 1rem;
     }
+    
     .main-footer__links {
     flex-direction: row;
     justify-content: center;
