@@ -97,20 +97,23 @@ body {
 @media (min-width: 40rem) {
     
     .plan__list {
-    width: 100%;
-    text-align: center;
+        display: flex;
+        align-content: center;
+        justify-content: center;
 }
 
     .plan {
-        display: inline-block;
-        width: 30%;
-        vertical-align: middle;
-        min-width: 13rem;
-        max-width: 25rem;
+        display: flex;
+        flex-direction: column;
+        height: 25rem;
+        margin-top: 1rem;
     }
 
     .plan--highlighted {
         box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+        z-index: 10;
+        height: 28rem;
+        margin-top: 0;
     }
 }
 
@@ -124,10 +127,12 @@ body {
 }
 
 .key-feature__list {
-    list-style: none;
-    margin: 0;
+    margin-top: 1.5rem;
     padding: 0;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 @media (min-width: 40rem) {
@@ -145,6 +150,14 @@ body {
         width: 30%;
         max-width: 25rem;
         vertical-align: top;
+    }
+
+    .key-feature__list {
+        margin: 0;
+        padding: 0;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
     }
 
 }
