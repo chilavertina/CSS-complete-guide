@@ -15,14 +15,15 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     display: grid;
-    grid-template-rows: auto 8rem;
-    padding-top: 3.5rem;
+    grid-template-rows: 3.5rem auto 8rem;
+    /*padding-top: 3.5rem;*/
     height: 100%;
 }
 
 main {
     /*min-height: calc(100vh - 3.5rem - 8rem);*/
     margin-top: 3.5rem;
+    grid-row: 2 / 3;
 }
 
 .backdrop {
@@ -145,6 +146,7 @@ main {
     background: black;
     padding: 2rem;
     margin-top: 3rem;
+    grid-row: 3 / 4;
 }
 
 .main-footer__links {
