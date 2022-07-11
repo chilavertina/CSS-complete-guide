@@ -12,10 +12,11 @@ body {
     margin: 0;
     display: grid;
     grid-template-rows: auto 8rem;
+    padding-top: 3.5rem;
 }
 
 main {
-    min-height: calc(100vh - 3.5rem - 8rem);
+    /*min-height: calc(100vh - 3.5rem - 8rem);*/
     margin-top: 3.5rem;
 }
 
@@ -138,6 +139,7 @@ main {
 .main-footer {
     background: black;
     padding: 2rem;
+    margin-top: 3rem;
 }
 
 .main-footer__links {
@@ -229,7 +231,6 @@ main {
   @media (min-width: 40rem) {
 
     .main-footer__link {
-        display: inline-block;
         margin: 0 1rem;
     }
 
