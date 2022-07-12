@@ -77,5 +77,7 @@ main {
         margin: auto;
         width: 30rem;
         grid-template-columns: 10rem auto;
+        grid-row-gap: 1rem;
+        grid-column-gap: 0.5rem;
     }
 }
