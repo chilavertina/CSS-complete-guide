@@ -21,7 +21,6 @@ main {
 .signup-form input,
 .signup-form select {
     display: block;
-    margin-top: 1rem;
     width: 100%;
 }
 
@@ -71,7 +70,6 @@ main {
 
 .signup-form button[type="submit"] {
     display: block;
-    margin-top: 1rem;
 }
 
 @media (min-width: 40rem) {
