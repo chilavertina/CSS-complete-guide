@@ -81,7 +81,12 @@ main {
         grid-column-gap: 0.5rem;
     }
 
+    #title {
+        grid-column: span 2;
+    }
+
     .signup-form__checkbox {
         grid-column: span 2;
     }
+
 }
