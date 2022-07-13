@@ -54,6 +54,8 @@ main {
     padding: 0.5rem;
     transform: rotateZ(45deg) translateX(1rem) translateY(1rem);
     transform-origin: center;
+    width: 12rem;
+    text-align: center;
 }
 
 .package__subtitle {
