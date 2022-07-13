@@ -52,7 +52,7 @@ main {
     color: white;
     background-color: #ff5454;
     padding: 0.5rem;
-    transform: rotateZ(45deg);
+    transform: rotateZ(45deg) translateX(1rem) translateY(1rem);
     transform-origin: center;
 }
 
